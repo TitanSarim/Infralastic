@@ -1,0 +1,16 @@
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  --bs-table-accent-bg: rgba(248, 21, 33, 0.05);
+  color: var(--bs-table-striped-color);
+}
+#departmentTable tbody, td, tfoot, th, thead, tr {
+  border: transparent;
+}
+#departmentTable th, td {
+  padding: 18px !important;
+  align-items: center;
+  vertical-align: middle;
+}
+
+.br-1 {
+  border-right: 1px solid #CDCDCD;
+}

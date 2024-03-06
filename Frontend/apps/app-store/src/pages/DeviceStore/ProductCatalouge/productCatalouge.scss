@@ -1,0 +1,37 @@
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+    margin-top: 25px;
+  
+    th,
+    td {
+      padding: 10px 15px;
+      text-align: left;
+    }
+  
+    thead {
+      background-color: #F81521;
+      color: #fff;
+    }
+  
+    tbody {
+      tr:nth-child(odd) {
+        background-color: #f2f2f2;
+      }
+  
+      tr:hover {
+        background-color: #ddd;
+      }
+    }
+  }
+  .back-btn-product {
+    margin-left: -3px;
+    margin-top: -3px;
+    z-index: 1;
+  }
+  .card-br
+{
+  border: 1px solid black;
+    border-radius: 7px;
+}

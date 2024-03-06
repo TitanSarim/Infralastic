@@ -1,0 +1,23 @@
+.powershell-terminal {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #012456; /* Dark bluish background color */
+  color: #ffffff; /* White text color */
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+}
+
+.output {
+  font-family: monospace;
+  white-space: pre-wrap;
+}
+
+.input {
+  width: 100%;
+  background-color: transparent;
+  color: #ffffff; /* White text color */
+  border: none;
+  outline: none;
+}

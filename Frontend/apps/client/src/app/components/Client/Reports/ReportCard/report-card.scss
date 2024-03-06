@@ -1,0 +1,6 @@
+.report-card-hover:hover {
+  box-shadow: 5px 10px 20px 3px rgba(128, 128, 128, 0.59) !important;
+  transition: box-shadow,background-color .7s ease-out;
+  background-color: #F81521;
+  color: white !important;
+}

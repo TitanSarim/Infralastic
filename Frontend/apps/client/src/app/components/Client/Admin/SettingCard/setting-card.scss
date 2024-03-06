@@ -1,0 +1,21 @@
+.setting-hover:hover {
+  color: white !important;
+  background-color: #F81521;
+  border-radius: 5px;
+  .text-muted {
+    color: white !important;
+  }
+}
+.setting-hover {
+  height: 100px;
+}
+.algn-center
+{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.mouse 
+{
+  cursor: pointer;
+}

@@ -1,0 +1,26 @@
+{
+  "name": "fleet",
+  "version": "1.0.0",
+  "description": "We build intelligent products for the real world. Design-driven, data-centric AI.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Zodiac",
+  "license": "ISC",
+  "dependencies": {
+    "@apideck/node": "^2.9.0",
+    "axios": "^1.4.0",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "https-proxy-agent": "^7.0.0",
+    "openai": "^3.2.1",
+    "socket.io": "^4.6.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}

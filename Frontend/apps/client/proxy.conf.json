@@ -1,0 +1,7 @@
+{
+  "/api": {
+    "target": "http://infralastic-codo.infralastic.com:8029",
+    "secure": false,
+    "changeOrigin": true
+  }
+}

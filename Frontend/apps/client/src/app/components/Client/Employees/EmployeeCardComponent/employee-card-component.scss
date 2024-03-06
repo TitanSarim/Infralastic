@@ -1,0 +1,26 @@
+.employee-card-w {
+  width: 130px
+}
+.employee-card-img {
+  margin-top: -35px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+.card-select {
+  background-color: #F81521;
+  color: white;
+}
+#dropdown-item-button {
+  background-color: transparent !important;
+  color: black;
+  border: transparent;
+  margin: 0;
+  padding: 0;
+}
+.dropdown-toggle::after {
+  display: none !important;
+}
+.dropdown-menu {
+  --bs-dropdown-min-width: 8rem;
+}

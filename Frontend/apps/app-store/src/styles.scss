@@ -1,0 +1,53 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
+}
+.h-100vh {
+  height: 100vh;
+}
+.theme-font {
+  font-family: 'Nunito', sans-serif;
+}
+.fs-7 {
+  font-size: 14px !important;
+}
+.fs-13 {
+  font-size: 13px !important;
+}
+.fs-8 {
+  font-size: 11px !important;
+}
+.theme-danger {
+  color: #F81521 !important;
+}
+.theme-border-danger {
+  border: 1px solid #F81521;
+}
+.bg-theme-danger {
+  background-color: #F81521;
+}
+.h-fit {
+  height: fit-content;
+}
+.bg-gray {
+  background-color: #A8AAAE;
+}
+.redeem {
+  background-color: rgba(248, 21, 33, 0.1);
+}
+.track-input {
+  max-width: 1054px;
+  width: 100%;
+}

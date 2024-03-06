@@ -1,0 +1,53 @@
+variables:
+  container_name_client: inflastic-app
+  container_image_client: registry.infralastic.com:443/inflastic:app-test1
+  additional_params_client: -p 8011:80
+
+  container_name_app_store: inflastic-shop
+  container_image_app_store: registry.infralastic.com:443/inflastic:app-test2
+  additional_params_app_store: -p 8012:80
+
+stages:
+  - Push to Docker Hub
+  - Publish
+
+build_and_docker_push_client:
+  stage: Push to Docker Hub
+  image: docker:20.10.17
+  services:
+    - docker:20.10.17-dind
+  only:
+    - main
+  script:
+    - docker build -t $container_image_client -f apps/client/Dockerfile .
+    - docker login -u admin -p redhat registry.infralastic.com:443
+    - docker push $container_image_client
+
+publish to Client VPS:
+  stage: Publish
+  only:
+    - main
+  trigger:
+    project: arsalan.yasin/secure-pipelines
+    branch: main
+
+build_and_docker_push_app_store:
+  stage: Push to Docker Hub
+  image: docker:20.10.17
+  services:
+    - docker:20.10.17-dind
+  only:
+    - main
+  script:
+    - docker build -t $container_image_app_store -f apps/app-store/Dockerfile .
+    - docker login -u admin -p redhat registry.infralastic.com:443
+    - docker push $container_image_app_store
+
+publish to Store VPS:
+  stage: Publish
+  only:
+    - main
+  trigger:
+    project: arsalan.yasin/secure-pipelines
+    branch: main
+

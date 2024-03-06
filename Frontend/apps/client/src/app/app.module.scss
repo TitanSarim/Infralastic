@@ -1,0 +1,33 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@600&display=swap');
+
+.h-100vh {
+  height: 100vh;
+}
+.theme-font {
+  font-family: 'Nunito', sans-serif;
+}
+.fs-7 {
+  font-size: 14px !important;
+}
+.fs-13 {
+  font-size: 13px !important;
+}
+.fs-8 {
+  font-size: 11px !important;
+}
+.theme-danger {
+  color: #F81521 !important;
+}
+.theme-border-danger {
+  border: 1px solid #F81521;
+}
+.bg-theme-danger {
+  background-color: #F81521;
+}
+.h-fit {
+  height: fit-content;
+}
+.bg-gray {
+  background-color: #A8AAAE;
+}

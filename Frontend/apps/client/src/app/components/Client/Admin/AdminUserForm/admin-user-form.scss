@@ -1,0 +1,14 @@
+.valadition-field
+{
+    text-align: center;
+    font-size: 12px;
+    color: red;
+}
+.icon-container {
+    position: absolute;
+    top: 50%; /* Adjust as needed */
+    right: 10px; /* Adjust the distance from the right edge of the input */
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  

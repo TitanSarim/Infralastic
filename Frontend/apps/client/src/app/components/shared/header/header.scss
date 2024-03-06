@@ -1,0 +1,28 @@
+.header-color {
+  color: #343434;
+}
+.header-input {
+  border-left: none;
+  width: 100%;
+  font-size: 15px;
+}
+.bolder-text
+{
+  font-weight: 600;
+}
+
+input:focus-visible, input:focus {
+  outline: none !important;
+}
+.input-group {
+  flex-wrap: nowrap !important;
+}
+#dropdown-item-button {
+  background-color: transparent !important;
+  border: transparent;
+  margin: 0;
+  padding: 0;
+}
+.custom-width {
+  width: 514px;
+}
